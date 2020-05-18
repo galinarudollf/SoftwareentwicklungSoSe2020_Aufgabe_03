@@ -29,12 +29,12 @@ Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen S
 
 ## 2. Klassen, Felder, Eigenschaften, Methoden
 
-### 1. Schreiben Sie ein Programm, das in der Lage ist, einen bzw. mehrere Computer zu simulieren.
+### a. Schreiben Sie ein Programm, das in der Lage ist, einen bzw. mehrere Computer zu simulieren.
 
 - Erstellen Sie bitte eine (zunächst leere) Klasse namens `Computer` in einer separaten Code-Datei. Legen Sie sich dann in Ihrer `Main(...)`-Methode ein Objekt dieser Klasse an.
 
 
-### 2. An jedem Computer ist stets ein Benutzer angemeldet.
+### b. An jedem Computer ist stets ein Benutzer angemeldet.
 
 - Jeder Computer soll über ein Feld vom Typ Zeichenkette (z. B. `UserNameField`) verfügen. Es enthält den Namen des gerade angemeldeten Benutzers. Bitte fügen Sie Ihrer Klasse ein solches Feld hinzu und initialisieren Sie es in einem eigens erstellten Konstruktor mit dem Startwert "*Administrator*".
 
@@ -48,7 +48,7 @@ Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen S
 - Testen Sie Ihre Properties und Methoden jeweils in der `Main(...)`-Methode.
 
 
-### 3. Ein Computer soll in der Lage sein, Dateien zu speichern
+### c. Ein Computer soll in der Lage sein, Dateien zu speichern
 
 - Implementieren Sie dazu eine Methode, die einen Pfad zu einem Verzeichnis sowie einen Dateinamen übernimmt. Bitte machen Sie sich zur Erstellung des zusammengesetzten Dateipfades mit den statischen `Combine(...)`-Methoden der Klasse `System.IO.Path` vertraut. Der eigentliche Speichervorgang wird als Konsolenausgabe realisiert, z. B.:
 
@@ -63,7 +63,7 @@ Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen S
 - Lassen Sie Ihren Computer in der `Main(...)`-Methode in einer Endlosschleife Dateien speichern. Starten Sie ihn neu, sobald er abstürzt.
 
 
-### 4. Jeder Computer soll über eine IP-Adresse verfügen
+### d. Jeder Computer soll über eine IP-Adresse verfügen
 
 - Im Repositoy finden Sie im Projektordner die Code-Datei `./Aufgabe_02/IPTools.cs`. Fügen Sie diese Ihrem Projekt hinzu.
 
@@ -76,7 +76,7 @@ Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen S
 - Testen Sie Ihre Implementierung in der `Main(...)`-Methode.
 
 
-### 5. Computer sind in der Lage, DVDs zu brennen.
+### e. Computer sind in der Lage, DVDs zu brennen.
 
 - Legen Sie bitte zunächst eine `DVD`-Klasse an. DVDs verfügen über eine Seriennummer, eine Beschriftung (Zeichenkette) und einen Inhalt (ebenfalls Zeichenkette). Implementieren Sie alle drei Elemente als nicht-schreibbare, automatische Properties.
 
@@ -90,7 +90,7 @@ Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen S
 		[1] Star Wars ("These are not the droids you are looking for.")
 
 
-### 6. Computer lassen sich in Arrays zu Computer-Pools zusammenfassen.
+### f. Computer lassen sich in Arrays zu Computer-Pools zusammenfassen.
 
 - Implementieren Sie bitte zunächst eine `Print()`-Methode in der Computerklasse, die die relevanten Eigenschaften des Computers ausgibt (Benutzername, IP-Adresse, Absturzzustand).
 
