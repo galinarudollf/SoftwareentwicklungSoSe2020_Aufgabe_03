@@ -19,9 +19,9 @@ Mit dem Aufgabeblatt werden die in der Vorlesung vorgestellten Basiskonzepte der
 
 Schreiben Sie ein Programm, das Zeichenketten von der Konsole einliest, sie in Morsezeichen überführt und anschließend auch visualisiert (blinkendes Konsolenfenster).
 
-Im Repository finden Sie die Datei ``./Aufgabe_01/MorseTable.cs``. Sie enthält die statische Klasse `MorseTable`, die wiederum über die statische Methode `GetMorseCode(...)` verfügt. Damit lassen sich einzelne Zeichen (Typ ``char``) in Zeichenketten umwandeln. Sie setzen sich aus Punkten (*kurz*), Strichen (*lang*) und Leerzeichen zusammen.
+Im Repository finden Sie die Datei [MorseTable.cs](./Aufgabe_01/MorseTable.cs). Sie enthält die statische Klasse `MorseTable`, die wiederum über die statische Methode `GetMorseCode(...)` verfügt. Damit lassen sich einzelne Zeichen (Typ ``char``) in Zeichenketten umwandeln. Sie setzen sich aus Punkten (*kurz*), Strichen (*lang*) und Leerzeichen zusammen.
 
-Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen Sie sich statische Hilfsmethoden an - z. B. `static void Flash(int Delay)`, um das Terminal für eine gewisse Zeit (in Millisekunden) umzufärben. Folgende Klassen, Methoden und Eigenschaften könnten außerdem nützlich sein:
+Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen Sie sich statische Hilfsmethoden an - z. B. `static void Flash(int delay)`, um das Terminal für eine gewisse Zeit (in Millisekunden) umzufärben. Folgende Klassen, Methoden und Eigenschaften könnten außerdem nützlich sein:
 
 - Methode `static void Sleep(int millisecondsTimeout)` in der Klasse `System.Threading.Thread`
 - Property `static ConsoleColor BackgroundColor` in der Klasse `System.Console`
@@ -50,7 +50,7 @@ Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen S
 
 ### c. Ein Computer soll in der Lage sein, Dateien zu speichern
 
-- Implementieren Sie dazu eine Methode, die einen Pfad zu einem Verzeichnis sowie einen Dateinamen übernimmt. Bitte machen Sie sich zur Erstellung des zusammengesetzten Dateipfades mit den statischen `Combine(...)`-Methoden der Klasse `System.IO.Path` vertraut. Der eigentliche Speichervorgang wird als Konsolenausgabe realisiert, z. B.:
+- Implementieren Sie dazu eine Methode, die einen Pfad zu einem Verzeichnis sowie einen Dateinamen übernimmt. Bitte machen Sie sich zur Erstellung des zusammengesetzten Dateipfades mit den statischen [Combine(...)](https://docs.microsoft.com/de-de/dotnet/api/system.io.path.combine?view=netcore-3.1)-Methoden der Klasse `System.IO.Path` vertraut. Was hat es mit dem Schlüsselwort `params` in der ersten Überladung auf sich? Der eigentliche Speichervorgang wird als Konsolenausgabe realisiert, z. B.:
 
 		Saving file: C:\Users\root\Desktop\Dissertation.tex
 
@@ -65,7 +65,7 @@ Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen S
 
 ### d. Jeder Computer soll über eine IP-Adresse verfügen
 
-- Im Repositoy finden Sie im Projektordner die Code-Datei `./Aufgabe_02/IPTools.cs`. Fügen Sie diese Ihrem Projekt hinzu.
+- Im Repositoy finden Sie im Projektordner die Code-Datei [IPTools.cs](./Aufgabe_02/IPTools.cs). Fügen Sie diese Ihrem Projekt hinzu.
 
 - Implementieren Sie die IP-Adresse in der `Computer`-Klasse als privates Byte-Array-Feld. Als initialer Wert soll `IPTools.LocalHostBytes` gesetzt sein.
 
