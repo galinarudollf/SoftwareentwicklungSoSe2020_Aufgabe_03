@@ -2,6 +2,11 @@
 
 Dieses Aufgabeblatt adressiert die nochmals die Grundelemente der Programmiersprache C# und wechselt dann zu objektorientierten Konzepten.
 
+Nunmehr wird Ihr Code etwas größer ausfallen und Sie sollten sich mehr Mühe geben diesen angemessen zu strukturieren. Suchen Sie dazu entsprechende Tools, die Sie bei der Arbeit unterstützen und auf Missachtung bestimmter Policies hinweisen. Einen guten Überblick zu den Tools und deren Integration in die verschiedenen Entwicklungsumgebungen gibt zum Beispiel die Webseite 
+[Link](https://medium.com/@michaelparkerdev/linting-c-in-2019-stylecop-sonar-resharper-and-roslyn-73e88af57ebd).
+
+Wir haben ein Issue auf der Seite der Kursmaterialien vorbereitet, unter dem Sie festhalten können, welches Tool Sie warum nutzen. Wir sind gespannt auf Ihre Wahl!
+
 ## Bearbeitungzeit
 
 18. Mai - 31. Mai 2020
